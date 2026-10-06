@@ -3,7 +3,7 @@ import importlib.util
 
 spec = importlib.util.spec_from_file_location(
     "character_frequency",
-    "Code/14_character_frequency.py"
+    "Code/14_char_frequency.py"
 )
 
 frequency_module = importlib.util.module_from_spec(spec)
