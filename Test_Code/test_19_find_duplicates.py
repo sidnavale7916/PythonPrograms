@@ -3,7 +3,7 @@ import importlib.util
 
 spec = importlib.util.spec_from_file_location(
     "duplicate_elements",
-    "Code/19_duplicate_elements.py"
+    "Code/19_find_duplicates.py"
 )
 
 duplicate_module = importlib.util.module_from_spec(spec)
