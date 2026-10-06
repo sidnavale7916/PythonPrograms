@@ -3,7 +3,7 @@ import importlib.util
 
 spec = importlib.util.spec_from_file_location(
     "count_vowels_consonants",
-    "Code/11_count_vowels_consonants.py"
+    "Code/11_vowels_consonants.py"
 )
 
 count_module = importlib.util.module_from_spec(spec)
