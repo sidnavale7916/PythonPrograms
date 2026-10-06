@@ -29,3 +29,4 @@ def test_negative_even():
 
 def test_negative_odd():
     assert even_odd(-5) == "Odd"
+print("All test cases passed.")
